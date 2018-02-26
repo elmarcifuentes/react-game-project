@@ -1,17 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import Jumbotron from './components/Jumbotron';
+import React from "react";
+import Game from './components/Game';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Navbar/>
-        <Jumbotron/>
-      </div>
-    );
-  }
-}
+const App = () => 
+<Game/>;
 
 export default App;
